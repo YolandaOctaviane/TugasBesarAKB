@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class CharacterMoveController : MonoBehaviour
 {
@@ -34,6 +35,8 @@ public class CharacterMoveController : MonoBehaviour
 
 
     private Animator anim;
+    
+    [SerializeField] public HighscoreData highScoreData;
 
     private void Start()
     {
@@ -115,6 +118,8 @@ public class CharacterMoveController : MonoBehaviour
 
         // disable this too
         this.enabled = false;
+
+        highScoreData.Save(ScoreData.highScore,"highscore");
     }
 
     public void IncreaseGameSpeed(float speed)

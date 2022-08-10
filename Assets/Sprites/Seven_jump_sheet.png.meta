@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18d7e78cc1411824ea6cc70b69b169af
+guid: 219a5b787a1e07f4cb3b1a5aaa1dc01a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Seven_run_sheet_0
+      name: Seven_jump_sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffc07e536cb7e56419738378db4004cf
-      internalID: -964883427
+      spriteID: d43f59f0d6f5a0443824a33746eb82c9
+      internalID: 1451030191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seven_run_sheet_1
+      name: Seven_jump_sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f93c95b6fc95742b45bceb2d47a030
-      internalID: 654949175
+      spriteID: 4c5d627b8384e0145be946d75c25d271
+      internalID: -1138865776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seven_run_sheet_2
+      name: Seven_jump_sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233989275bf11ea4ca1fc92c6f184b67
-      internalID: 383118565
+      spriteID: b14c5c3f3be3e324ba3774296b669ea3
+      internalID: -143417123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seven_run_sheet_3
+      name: Seven_jump_sheet_3
       rect:
         serializedVersion: 2
         x: 144
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e897f6156c66db542b01efac0f4dfd43
-      internalID: 1583622250
+      spriteID: 6b7da8ba5a9f2394f8615e54f96f27d2
+      internalID: 1970967055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seven_run_sheet_4
+      name: Seven_jump_sheet_4
       rect:
         serializedVersion: 2
         x: 192
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dee39b547d240642b578e4a5901df7e
-      internalID: -615119058
+      spriteID: 3e238130c03be6f42ba1f425b59f9a88
+      internalID: 1856321602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seven_run_sheet_5
+      name: Seven_jump_sheet_5
       rect:
         serializedVersion: 2
         x: 240
@@ -247,8 +247,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f0178aae72508041aeab519d54c692f
-      internalID: 718198512
+      spriteID: abb9f46688c46704995628d3785c251b
+      internalID: -1157533656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seven_jump_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583aba6bb68d8c34599fc5c551ac136a
+      internalID: -161670946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seven_jump_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9513e38eb411b48bd6bdf46612396e
+      internalID: 300728571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seven_jump_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629f32ac90ff7546810b841048c3c2d
+      internalID: 550702082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seven_jump_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837e3a228c7d9849893ea6fbee88557
+      internalID: -1138991669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seven_jump_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a04b6f7b77919640a7644d78ba23185
+      internalID: -2137433850
       vertices: []
       indices: 
       edges: []
@@ -264,12 +369,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Seven_run_sheet_2: 383118565
-      Seven_run_sheet_1: 654949175
-      Seven_run_sheet_3: 1583622250
-      Seven_run_sheet_0: -964883427
-      Seven_run_sheet_4: -615119058
-      Seven_run_sheet_5: 718198512
+      Seven_jump_sheet_0: 1451030191
+      Seven_jump_sheet_2: -143417123
+      Seven_jump_sheet_9: -1138991669
+      Seven_jump_sheet_10: -2137433850
+      Seven_jump_sheet_3: 1970967055
+      Seven_jump_sheet_4: 1856321602
+      Seven_jump_sheet_7: 300728571
+      Seven_jump_sheet_1: -1138865776
+      Seven_jump_sheet_5: -1157533656
+      Seven_jump_sheet_6: -161670946
+      Seven_jump_sheet_8: 550702082
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

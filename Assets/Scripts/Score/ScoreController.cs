@@ -20,10 +20,10 @@ public class ScoreController : MonoBehaviour
     private void Start()
     {
         // reset
-        JsonUtility.FromJsonOverwrite(System.IO.File.ReadAllText(Application.persistentDataPath + "/Highscore.json"),highScoreData);
+        highScoreData.Load(out ScoreData.highScore,"highscore");
         currentScore = 0;
         lastScoreHighlight = 0;
-        ScoreData.highScore = highScoreData.highScore;
+        ScoreData.highScore = highScoreData.highscore;
     }
 
     public float GetCurrentScore()
@@ -48,7 +48,7 @@ public class ScoreController : MonoBehaviour
         // set high score
         if (currentScore > ScoreData.highScore)
         {
-            highScoreData.highScore = currentScore;
+            highScoreData.highscore = currentScore;
             ScoreData.highScore = currentScore;
         }
     }
@@ -56,10 +56,6 @@ public class ScoreController : MonoBehaviour
     //scene
     public void BackToTitle(string scene)
     {
-        //save score to json
-        var json = JsonUtility.ToJson(highScoreData);
-        System.IO.File.WriteAllText(Application.persistentDataPath + "/Highscore.json", json);
-
         SceneManager.LoadScene(scene);
     }
 }
