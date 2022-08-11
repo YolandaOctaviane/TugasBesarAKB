@@ -85,7 +85,7 @@ public class TerrainGeneratorController : MonoBehaviour
             newTerrain = GenerateFromPool(forceTerrain.gameObject, transform);
         }
 
-        newTerrain.transform.position = new Vector2(posX, 0f);
+        newTerrain.transform.position = new Vector2(posX, -1f);
 
         spawnedTerrain.Add(newTerrain);
     }
