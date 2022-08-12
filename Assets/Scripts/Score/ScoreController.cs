@@ -58,4 +58,10 @@ public class ScoreController : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    //reset
+    public void resetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
